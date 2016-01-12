@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+  roles:
+    - rolename
+  tasks:
+    - name: Some task I need to do
+      module: arg=val
